@@ -9,12 +9,13 @@
 	</head>
 	<body class="is-preload">
 			<div id="wrapper">
-
+           
 					<div id="main">
 						<div class="inner">
-
-								<header id="header">
-									<a href="index.html" class="logo"><strong>Prefeitura de Quiterianópolis</strong></a>
+						        <header id="header">
+							
+                                    <a href="index.html" class="logo"><strong>Prefeitura de Quiterianópolis</strong></a>
+                                    
 									<ul class="icons">
 										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
@@ -26,6 +27,7 @@
 							<!-- Banner -->
 								<section id="banner">
 									<div class="content">
+                                   
 										<header>
 											<h1>Prefeitura de Quiterianópolis</h1>
 										</header>
@@ -34,7 +36,7 @@
 									<span class="image object">
 										<img src="images/banner.jpg" alt="" />
 									</span>
-								</section>
+                                </section>
 
 							<!-- Section -->
 								<section>
@@ -56,7 +58,7 @@
 											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
 											<h3>LRF</h3>
 											<ul class="actions">
-												<li><a href="#" class="button">Mais LRF</a></li>
+												<li><a href="#" class="button button2">Mais LRF</a></li>
 											</ul>
 										</article>
 										<article>
@@ -80,18 +82,9 @@
 						</div>
 					</div>
 
-				<!-- Sidebar -->
 					<div id="sidebar">
 						<div class="inner">
 
-							<!-- Search -->
-								<section id="search" class="alt">
-									<form method="post" action="#">
-										<input type="text" name="query" id="query" placeholder="Search" />
-									</form>
-								</section>
-
-							<!-- Menu -->
 								<nav id="menu">
 									<header class="major">
 										<h2>Menu</h2>
@@ -100,73 +93,72 @@
 										<li>
 											<span class="opener">Prefeitura</span>
 											<ul>
-												<li><a href="#">Prefeito</a></li>
-												<li><a href="#">Vice-prefeito</a></li>
+												<li><a href="view/prefeito.php">Prefeito e vice</a></li>
+												<li><a href="view/gestores.php">Gestores </a></li>
 											</ul>
 										</li>
 										<li>
 											<span class="opener">O município</span>
 											<ul>
-												<li><a href="#">Diário oficial</a></li>
-												<li><a href="#">Dados do município</a></li>
-												<li><a href="#">Guia do município</a></li>
-												<li><a href="#">Símbolos municipais</a></li>
-												<li><a href="#">Veículos</a></li>
+												<li><a href="view/diarioOficial.php">Diário oficial</a></li>
+												<li><a href="view/dadosMun.php">Dados do município</a></li>
+												<li><a href="view/guiaMun.php">Guia do município</a></li>
+												<li><a href="view/simbolos.php">Símbolos municipais</a></li>
+												<li><a href="view/veiculos.php">Veículos</a></li>
 											</ul>
 										</li>
 										<li>
 											<span class="opener">Secretarias</span>
 											<ul>
-												<li><a href="#">Controladoria geral do município</a></li>
-												<li><a href="#">Fundo municipal de saúde</a></li>
-												<li><a href="#">Gabinete do prefeito</a></li>
-												<li><a href="#">Planejamento e gestão de finanças</a></li>
-												<li><a href="#">Procuradoria geral do município</a></li>
-												<li><a href="#">Secretaria de assistência social</a></li>
-												<li><a href="#">Secretaria de cultura</a></li>
-												<li><a href="#">Secretaria de desenvolvimento economico e empreendedorismo</a></li>
+												<li><a href="view/controladoria.php">Controladoria geral do município</a></li>
+												<li><a href="view/fundo.php">Fundo municipal de saúde</a></li>
+												<li><a href="view/gabinetePref.php">Gabinete do prefeito</a></li>
+												<li><a href="view/planGestao.php">Planejamento e gestão de finanças</a></li>
+												<li><a href="view/procuradoria.php">Procuradoria geral do município</a></li>
+												<li><a href="view/assisSocial.php">Secretaria de assistência social</a></li>
+												<li><a href="view/cultura.php">Secretaria de cultura</a></li>
+												<li><a href="view/empreendedorismo.php">Secretaria de desenvolvimento economico e empreendedorismo</a></li>
 											</ul>
 										</li>
 										<li>
 											<span class="opener">Serviços</span>
 											<ul>
-												<li><a href="#">Transparência</a></li>
-												<li><a href="#">Nota fiscal eletrônica</a></li>
-												<li><a href="#">Portal se serviço tributário</a></li>
-												<li><a href="#">Portal do servidor</a></li>	
+												<li><a href="view/transparencia.php">Transparência</a></li>
+												<li><a href="view/nfe.php">Nota fiscal eletrônica</a></li>
+												<li><a href="view/serTributario.php">Portal se serviço tributário</a></li>
+												<li><a href="view/servidor.php">Portal do servidor</a></li>	
 											</ul>
 										</li>
-										<li><a href="#">Transparência</a></li>
+										<li><a href="view/transparencia.php">Transparência</a></li>
 										<li>
 											<span class="opener">LRF e contas públicas</span>
 											<ul>
-												<li><a href="#">RGF - Relatório de gestão fiscal</a></li>
-												<li><a href="#">RREO - Relatório resumido da execução orçamentária</a></li>
-												<li><a href="#">LOA - Lei orçamentária anual</a></li>
-												<li><a href="#">LDO - Lei de diretrizes orçamentária</a></li>
-												<li><a href="#">PCPE - Procedimentos contábeis patrimoniais específicos</a></li>
-												<li><a href="#">CMED - Cronograma da execução mensal de desembolso</a></li>
-												<li><a href="#">PFA - Programação financeira anual</a></li>
-												<li><a href="#">PPA - Plano plurianual</a></li>
+												<li><a href="view/rgf.php">RGF - Relatório de gestão fiscal</a></li>
+												<li><a href="view/rreo.php">RREO - Relatório resumido da execução orçamentária</a></li>
+												<li><a href="view/loa.php">LOA - Lei orçamentária anual</a></li>
+												<li><a href="view/ldo.php">LDO - Lei de diretrizes orçamentária</a></li>
+												<li><a href="view/pcpe.php">PCPE - Procedimentos contábeis patrimoniais específicos</a></li>
+												<li><a href="view/cmed.php">CMED - Cronograma da execução mensal de desembolso</a></li>
+												<li><a href="view/pfa.php">PFA - Programação financeira anual</a></li>
+												<li><a href="view/ppa.php">PPA - Plano plurianual</a></li>
 											</ul>
 										</li>
 										<li>
 											<span class="opener">Publicações</span>
 											<ul>
-												<li><a href="#">Decretos</a></li>
-												<li><a href="#">Diárias</a></li>
-												<li><a href="#">Processo seletivo</a></li>
-												<li><a href="#">Portarias</a></li>
-												<li><a href="#">Leis municipais</a></li>
-												<li><a href="#">Outras publicações</a></li>
+												<li><a href="view/decretos.php">Decretos</a></li>
+												<li><a href="view/diarias.php">Diárias</a></li>
+												<li><a href="view/processoSel.php">Processo seletivo</a></li>
+												<li><a href="view/portarias.php">Portarias</a></li>
+												<li><a href="view/leis.php">Leis municipais</a></li>
+												<li><a href="view/outras.php">Outras publicações</a></li>
 											</ul>
 										</li>
-										<li><a href="#">Diário oficial</a></li>
+										<li><a href="view/dOficial.php">Diário oficial</a></li>
 									</ul>
 								</nav>
 
 
-							<!-- Footer -->
 								<footer id="footer">
 									<p class="copyright">&copy; Todos os direitos reservados Design: <a href="">Luan Santos</a>.</p>
 								</footer>
@@ -176,7 +168,7 @@
 
 			</div>
 
-		<!-- Scripts -->
+
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
