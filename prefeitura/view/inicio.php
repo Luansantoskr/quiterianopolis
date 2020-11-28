@@ -1,27 +1,28 @@
 
-<!DOCTYPE HTML>
+
+<?php 
+	session_start();
+	if(isset($_SESSION['usuario'])){
+
+
+ ?>
+
+<!DOCTYPE html>
 <html>
-	<head>
+<head>
 		<title>Prefeitura de Quiterianópolis</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-
-		<script>
-			function funcao1()
-				{
-					alert("Área restrita!");
-				}
-		</script>
-	</head>
-	<body class="is-preload">
+		<link rel="stylesheet" href="../assets/css/main.css" />
+</head>
+<body class="is-preload"style="background-color: hsla(89, 43%, 51%, 0.3)">
 			<div id="wrapper">
            
 					<div id="main">
 						<div class="inner">
 						        <header id="header">
 							
-                                    <a href="index.html" class="logo"><strong>Prefeitura de Quiterianópolis</strong></a>
+                                    <a href="../index.php" class="logo"><strong>Prefeitura de Quiterianópolis</strong></a>
 
 									<ul class="icons">
 										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
@@ -41,7 +42,7 @@
 										
 									</div>
 									<span class="image object">
-										<img src="images/banner.jpg" alt="" />
+										<img src="../images/banner.jpg" alt="" />
 									</span>
                                 </section>
 
@@ -169,10 +170,6 @@
 												<li><a href="#" class="button">Ouvidoria</a></li>
 												<li><a href="#" class="button">e-Sic</a></li>
 										</ul>
-										<ul class="actions">
-										
-												<li><a href="logar.php" onclick="funcao1()" class="button">Fazer login</a></li>
-										</ul>
 
 								<footer id="footer">
 									<p class="copyright">&copy; Todos os direitos reservados Design: <a href="">Luan Santos</a>.</p>
@@ -180,10 +177,34 @@
 						</div>
 					</div>
 			</div>
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
 	</body>
 </html>
+
+
+<?php 
+} else{
+	header("location:../index.php");
+}
+
+ ?>
+
+<script type="text/javascript">
+		$(document).ready(function(){
+
+				
+				$('#vendasFeitas').load('vendas/vendasRelatorios.php');
+				
+				$('#vendasFeitas').show();
+				
+		});
+
+		
+
+	</script>
+
+
