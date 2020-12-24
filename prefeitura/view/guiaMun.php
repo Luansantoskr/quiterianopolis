@@ -33,9 +33,6 @@
 										</header>
 										
 									</div>
-									<span class="image object">
-									
-									</span>
                                 </section>
 
 							<!-- Section -->
@@ -54,15 +51,6 @@
 									
 									</header>
 									<div class="posts">
-										<article>
-											
-										</article>
-										<article>
-											
-										</article>
-										<article>
-											
-										</article>
 										
 									</div>
 								</section>

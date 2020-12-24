@@ -29,40 +29,19 @@
 									<div class="content">
                                    
 										<header>
-											
+											<h2>PFA - PROGRAMAÇÃO FINANCEIRA ANUAL</h2>
 										</header>
 										
 									</div>
-									<span class="image object">
-									
-									</span>
+								
                                 </section>
 
 							<!-- Section -->
 								<section>
 									<header class="major">
-										<h2>PFA</h2>
+						
 									</header>
 									<div class="features">
-										
-									</div>
-								</section>
-
-							<!-- Section -->
-								<section>
-									<header class="major">
-									
-									</header>
-									<div class="posts">
-										<article>
-											
-										</article>
-										<article>
-											
-										</article>
-										<article>
-											
-										</article>
 										
 									</div>
 								</section>

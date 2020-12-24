@@ -25,44 +25,40 @@
 								</header>
 
 							<!-- Banner -->
+							<section id="banner">
+									<div class="content">
+                                   
+											<h2>Fundo municipal de saúde</h2>	
+									</div>
+								
+                                </section>
+
+								<div class="content">
+                                   
+										<header>
+											<h2>Informações da secretaria</h2>
+										</header>
+										
+									</div>
+									
+                                </section>
 								<section id="banner">
 									<div class="content">
                                    
 										<header>
-											
+											<h2>Informações do secretário(a)</h2>
 										</header>
 										
 									</div>
-									<span class="image object">
 									
-									</span>
                                 </section>
 
 							<!-- Section -->
 								<section>
 									<header class="major">
-										<h2>Fundo municipal de saúde</h2>
+										<h2>Mais informações da secretaria</h2>
 									</header>
 									<div class="features">
-										
-									</div>
-								</section>
-
-							<!-- Section -->
-								<section>
-									<header class="major">
-									
-									</header>
-									<div class="posts">
-										<article>
-											
-										</article>
-										<article>
-											
-										</article>
-										<article>
-											
-										</article>
 										
 									</div>
 								</section>

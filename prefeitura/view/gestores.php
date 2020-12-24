@@ -41,7 +41,7 @@
 							<!-- Section -->
 								<section>
 									<header class="major">
-										<h2>Gestores</h2>
+										<h2>Galeria de gestores</h2>
 									</header>
 									<div class="features">
 										
@@ -49,23 +49,6 @@
 								</section>
 
 							<!-- Section -->
-								<section>
-									<header class="major">
-									
-									</header>
-									<div class="posts">
-										<article>
-											
-										</article>
-										<article>
-											
-										</article>
-										<article>
-											
-										</article>
-										
-									</div>
-								</section>
 
 						</div>
 					</div>

@@ -25,23 +25,41 @@
 								</header>
 
 							<!-- Banner -->
+							<section id="banner">
+									<div class="content">
+                                   
+										<header>
+											<h2>Informações da secretaria</h2>
+										</header>
+										
+									</div>
+									
+                                </section>
 								<section id="banner">
 									<div class="content">
                                    
 										<header>
-											
+											<h2>Informações do secretário(a)</h2>
 										</header>
 										
 									</div>
-									<span class="image object">
 									
-									</span>
+                                </section>
+								<section id="banner">
+									<div class="content">
+                                   
+										<header>
+											<h2>Biografia do secretário(a)</h2>
+										</header>
+										
+									</div>
+									
                                 </section>
 
 							<!-- Section -->
 								<section>
 									<header class="major">
-										<h2>Controladoria</h2>
+										<h2>Mais informações da secretaria</h2>
 									</header>
 									<div class="features">
 										
@@ -49,20 +67,11 @@
 								</section>
 
 							<!-- Section -->
-								<section>
+							<section>
 									<header class="major">
-									
+										<h2>Notícias mais recentes</h2>
 									</header>
-									<div class="posts">
-										<article>
-											
-										</article>
-										<article>
-											
-										</article>
-										<article>
-											
-										</article>
+									<div class="features">
 										
 									</div>
 								</section>

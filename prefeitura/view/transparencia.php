@@ -26,22 +26,91 @@
 
 							<!-- Banner -->
 								<section id="banner">
-									<div class="content">
-                                   
+									<div class="content">  
 										<header>
-											
+											<h2 style="text-align: center;">Acesso a informação</h2>
 										</header>
-										
+										<a href="#"><button class="button button2">Licitações</button></a>
+										<a href=""><button class="button button2">Contratos na íntegra</button></a>
+										<a href=""><button class="button button2">Outras publicações</button></a>
+										<a href=""><button class="button button2">Diárias</button></a>
+										<a href=""><button class="button button2">Convênios</button></a>
+										<a href=""><button class="button button2">Leis municipais</button></a>
+										<a href=""><button class="button button2">Prestação de contas</button></a>
+										<a href=""><button class="button button2">Portarias</button></a>
+										<a href=""><button class="button button2">Ouvidoria</button></a>
+										<a href=""><button class="button button2">eSic</button></a>
+										<a href=""><button class="button button2">Perguntas mais frequentes</button></a>
+										<a href=""><button class="button button2">Detalhamento de pessoal</button></a>
+										<a href=""><button class="button button2">Glossário</button></a>
+										<a href=""><button class="button button2">Mapa do site</button></a>
 									</div>
-									<span class="image object">
-									
-									</span>
+							
+                                </section>
+								<section id="banner">
+									<div class="content">  
+										<header>
+											<h2 style="text-align: center;">Transparência</h2>
+											<p style="text-align: center;">Em atendimento a Lei Complementar Nº 131, de 27 de Maio de 2009<br>
+											Informações relacionadas a Despesas, Receitas, Fornecedores, Recursos federais recebidos,
+Programas ações e projetos e Estrutura organizacional abaixo</p>
+										</header>
+										<a href="#"><button class="button button2">Receitas - por origem</button></a>
+										<a href=""><button class="button button2">Receitas - por data</button></a>
+										<a href=""><button class="button button2">Receitas - por tipo</button></a>
+										<a href=""><button class="button button2">Receitas - por unidade</button></a>
+										<a href=""><button class="button button2">Despesas - por data</button></a>
+										<a href=""><button class="button button2">Despesas - por tipo</button></a>
+										<a href=""><button class="button button2">Despesas - por credor</button></a>
+										<a href=""><button class="button button2">Despesas - por extra</button></a>
+										<a href=""><button class="button button2">Despesas - diárias</button></a>
+									</div>
+							
+                                </section>
+								<section id="banner">
+									<div class="content">  
+										<header>
+											<h2 style="text-align: center;">Lei de responsabilidade fiscal</h2>
+										</header>
+										<a href="#"><button class="button button2">RGF - Relatório de gestão fiscal</button></a>
+										<a href=""><button class="button button2">RREO - Relatório resumido de execução orçamentária</button></a>
+										<a href=""><button class="button button2">LOA - Lei orçamentária anual</button></a>
+										<a href=""><button class="button button2">LDO - Lei de diretrizes orçamentária</button></a>
+										<a href=""><button class="button button2">PCPE - Procedimentos contábeis patrimoniais e específicos</button></a>
+										<a href=""><button class="button button2">CMED - Cronograma da execução mensal de desembolso</button></a>
+										<a href=""><button class="button button2">PFA - Programação financeira anual</button></a>
+										<a href=""><button class="button button2">PPA - Plano purianual</button></a>
+							
+                                </section>
+								<section id="banner">
+									<div class="content">  
+										<header>
+											<h2 style="text-align: center;">Contas públicas</h2>
+										</header>
+										<a href="#"><button class="button button2">PCG - Prestação de contas de governo</button></a>
+										<a href=""><button class="button button2">PCS - Prestação de contas de gestão</button></a>
+							
+                                </section>
+								<section id="banner">
+									<div class="content">  
+										<header>
+											<h2 style="text-align: center;">Institucional e municipal</h2>
+										</header>
+										<a href="#"><button class="button button2">Brasão, hino e bandeira</button></a>
+										<a href=""><button class="button button2">Conselho e membros</button></a>
+										<a href=""><button class="button button2">Associações e membros</button></a>
+										<a href=""><button class="button button2">Veículos municipais</button></a>
+										<a href=""><button class="button button2">Prefeitura</button></a>
+										<a href=""><button class="button button2">Prefeito e vice</button></a>
+										<a href=""><button class="button button2">Secretarias</button></a>
+										<a href=""><button class="button button2">Selos</button></a>
+							
                                 </section>
 
 							<!-- Section -->
 								<section>
 									<header class="major">
-										<h2>Portal da transparência</h2>
+										
 									</header>
 									<div class="features">
 										
@@ -54,15 +123,6 @@
 									
 									</header>
 									<div class="posts">
-										<article>
-											
-										</article>
-										<article>
-											
-										</article>
-										<article>
-											
-										</article>
 										
 									</div>
 								</section>

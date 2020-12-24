@@ -41,7 +41,7 @@
 							<!-- Section -->
 								<section>
 									<header class="major">
-										<h2>Diarios</h2>
+										<h2>Lista de diárias</h2>
 									</header>
 									<div class="features">
 										

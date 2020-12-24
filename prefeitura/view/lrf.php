@@ -29,7 +29,6 @@
 									<div class="content">
                                    
 										<header>
-											
 										</header>
 										
 									</div>

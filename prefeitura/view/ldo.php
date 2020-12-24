@@ -29,13 +29,11 @@
 									<div class="content">
                                    
 										<header>
-											
+											<h2>LDO - Lei de diretrizes orçamentárias</h2>
 										</header>
 										
 									</div>
-									<span class="image object">
 									
-									</span>
                                 </section>
 
 							<!-- Section -->
@@ -54,15 +52,6 @@
 									
 									</header>
 									<div class="posts">
-										<article>
-											
-										</article>
-										<article>
-											
-										</article>
-										<article>
-											
-										</article>
 										
 									</div>
 								</section>

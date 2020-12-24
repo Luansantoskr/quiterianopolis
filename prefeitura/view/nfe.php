@@ -27,10 +27,6 @@
 							<!-- Banner -->
 								<section id="banner">
 									<div class="content">
-                                   
-										<header>
-											
-										</header>
 										
 									</div>
 									<span class="image object">
@@ -42,6 +38,7 @@
 								<section>
 									<header class="major">
 										<h2>Nota fiscal eletrônica</h2>
+										<a href="http://iss.speedgov.com.br/crateus/login"><button class="button button2"> Ir para a nota fiscal</button></a>
 									</header>
 									<div class="features">
 										

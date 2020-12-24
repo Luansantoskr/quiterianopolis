@@ -6,6 +6,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="../assets/css/main.css" />
+		<link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.css" />
 	</head>
 	<body class="is-preload">
 			<div id="wrapper">
@@ -40,29 +41,28 @@
 
 							<!-- Section -->
 								<section>
-									<header class="major">
-										<h2>Dados do municipio</h2>
-									</header>
-									<div class="features">
-										
-									</div>
+								<div class="col-md-12" style="padding-top: 10px;">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <ul class="nav nav-tabs" role="tablist">
+                                                <li id="l-obra" class="active"><a style="padding:10px 15px;" href="#omunicipio1" data-toggle="tab" role="tablist">Origem</a></li>
+                                                <li id="l-obra"><a style="padding:10px 15px;" href="#omunicipio2" data-toggle="tab" role="tablist">História</a></li>
+                                                <li id="l-obra"><a style="padding:10px 15px;" href="#omunicipio3" data-toggle="tab" role="tablist">Cultura</a></li>
+                                                <li id="l-obra"><a style="padding:10px 15px;" href="#omunicipio4" data-toggle="tab" role="tablist">Divisão Política</a></li>
+                                                <li id="l-obra"><a style="padding:10px 15px;" href="#omunicipio5" data-toggle="tab" role="tablist">Curiosidades</a></li>
+                                                <li id="l-obra"><a style="padding:10px 5px;" href="#omunicipio6" data-toggle="tab" role="tablist">Brasão, hino e bandeira</a></li>
+                                                
+                                            </ul>
+                                             
 								</section>
 
 							<!-- Section -->
 								<section>
 									<header class="major">
-									
+										
 									</header>
 									<div class="posts">
-										<article>
-											
-										</article>
-										<article>
-											
-										</article>
-										<article>
-											
-										</article>
+										
 										
 									</div>
 								</section>

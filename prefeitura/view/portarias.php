@@ -29,7 +29,7 @@
 									<div class="content">
                                    
 										<header>
-											
+											<h2>Portarias</h2>
 										</header>
 										
 									</div>
@@ -41,32 +41,12 @@
 							<!-- Section -->
 								<section>
 									<header class="major">
-										<h2>Portarias</h2>
-									</header>
-									<div class="features">
-										
-									</div>
-								</section>
-
-							<!-- Section -->
-								<section>
-									<header class="major">
-									
+										<h2>Lista de portarias</h2>
 									</header>
 									<div class="posts">
-										<article>
-											
-										</article>
-										<article>
-											
-										</article>
-										<article>
-											
-										</article>
 										
 									</div>
 								</section>
-
 						</div>
 					</div>
 

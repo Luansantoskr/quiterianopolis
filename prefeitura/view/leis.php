@@ -54,19 +54,9 @@
 									
 									</header>
 									<div class="posts">
-										<article>
-											
-										</article>
-										<article>
-											
-										</article>
-										<article>
-											
-										</article>
 										
 									</div>
 								</section>
-
 						</div>
 					</div>
 

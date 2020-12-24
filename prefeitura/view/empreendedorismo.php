@@ -6,6 +6,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="../assets/css/main.css" />
+		<link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.css" />
 	</head>
 	<body class="is-preload">
 			<div id="wrapper">
@@ -25,46 +26,77 @@
 								</header>
 
 							<!-- Banner -->
+							<section id="banner">
+									<div class="content">
+                                   
+											<h2>Secretaria de desenvolvimento e empreendedorismo</h2>	
+									</div>
+								
+                                </section>
+
+								<div class="content">
+                                   
+										<header>
+											<h2>Informações da secretaria</h2>
+												<div>
+													<ul>
+															<li><strong>CNPJ </strong><br> <h5></h5></li>
+															<li><strong>Telefone </strong><br> <h5></h5></li>
+															<li><strong>Email </strong><br> <h5></h5></li>
+															<li><strong>Horário de funcionamento </strong><br> <h5></h5></li>
+															<li><strong>Endereço </strong><br> <h5></h5></li>
+                            						</ul>
+												</div>
+										</header>
+										
+									</div>
+									
+                                </section>
 								<section id="banner">
 									<div class="content">
                                    
 										<header>
-											
+											<h2>Informações do secretário(a)</h2>
+											<div>
+												<ul>
+													<li><strong>Nome </strong><br> <h5></h5></li>
+													<li><strong>Cargo </strong><br> <h5></h5></li>
+													<li><strong>Período </strong><br> <h5></h5></li>
+													<li><strong>Amparo legal </strong><br> <h5></h5></li>
+													<li><strong>Matrícula </strong><br> <h5></h5></li>
+                            					</ul>
+											</div>
 										</header>
 										
 									</div>
-									<span class="image object">
 									
-									</span>
                                 </section>
 
 							<!-- Section -->
 								<section>
 									<header class="major">
-										<h2>empreendedorismo</h2>
+										<h2>Biografia do secretario</h2>
 									</header>
 									<div class="features">
-										
+										<textarea name="" id="" cols="30" rows="10"></textarea>
 									</div>
 								</section>
 
 							<!-- Section -->
-								<section>
-									<header class="major">
-									
-									</header>
-									<div class="posts">
-										<article>
-											
-										</article>
-										<article>
-											
-										</article>
-										<article>
-											
-										</article>
-										
-									</div>
+							<section>
+								<div class="col-md-12" style="padding-top: 10px;">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <ul class="nav nav-tabs" role="tablist">
+                                                <li id="l-obra" class="active"><a style="padding:10px 15px;" href="#omunicipio1" data-toggle="tab" role="tablist">Origem</a></li>
+                                                <li id="l-obra"><a style="padding:10px 15px;" href="#omunicipio2" data-toggle="tab" role="tablist">História</a></li>
+                                                <li id="l-obra"><a style="padding:10px 15px;" href="#omunicipio3" data-toggle="tab" role="tablist">Cultura</a></li>
+                                                <li id="l-obra"><a style="padding:10px 15px;" href="#omunicipio4" data-toggle="tab" role="tablist">Divisão Política</a></li>
+                                                <li id="l-obra"><a style="padding:10px 15px;" href="#omunicipio5" data-toggle="tab" role="tablist">Curiosidades</a></li>
+                                                <li id="l-obra"><a style="padding:10px 5px;" href="#omunicipio6" data-toggle="tab" role="tablist">Brasão, hino e bandeira</a></li>
+                                                
+                                            </ul>
+                                             
 								</section>
 
 						</div>

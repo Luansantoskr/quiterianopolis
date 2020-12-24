@@ -25,45 +25,59 @@
 								</header>
 
 							<!-- Banner -->
+							<section id="banner">
+									<div class="content">
+                                   
+											<h2>Gabinete do prefeito</h2>	
+									</div>
+								
+                                </section>
+
+								<div class="content">
+                                   
+										<header>
+											<h2>Informações da secretaria</h2>
+												<div>
+													<ul>
+															<li><strong>CNPJ </strong><br> <h5></h5></li>
+															<li><strong>Telefone </strong><br> <h5></h5></li>
+															<li><strong>Email </strong><br> <h5></h5></li>
+															<li><strong>Horário de funcionamento </strong><br> <h5></h5></li>
+															<li><strong>Endereço </strong><br> <h5></h5></li>
+                            						</ul>
+												</div>
+										</header>
+										
+									</div>
+									
+                                </section>
 								<section id="banner">
 									<div class="content">
                                    
 										<header>
-											
+											<h2>Informações do secretário(a)</h2>
+											<div>
+												<ul>
+													<li><strong>Nome </strong><br> <h5></h5></li>
+													<li><strong>Cargo </strong><br> <h5></h5></li>
+													<li><strong>Período </strong><br> <h5></h5></li>
+													<li><strong>Amparo legal </strong><br> <h5></h5></li>
+													<li><strong>Matrícula </strong><br> <h5></h5></li>
+                            					</ul>
+											</div>
 										</header>
 										
 									</div>
-									<span class="image object">
 									
-									</span>
                                 </section>
 
 							<!-- Section -->
 								<section>
 									<header class="major">
-										<h2>Gabinete do prefeito</h2>
+										<h2>Biografia do secretario</h2>
 									</header>
 									<div class="features">
-										
-									</div>
-								</section>
-
-							<!-- Section -->
-								<section>
-									<header class="major">
-									
-									</header>
-									<div class="posts">
-										<article>
-											
-										</article>
-										<article>
-											
-										</article>
-										<article>
-											
-										</article>
-										
+										<textarea name="" id="" cols="30" rows="10"></textarea>
 									</div>
 								</section>
 

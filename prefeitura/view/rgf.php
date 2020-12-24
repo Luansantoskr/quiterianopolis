@@ -29,24 +29,12 @@
 									<div class="content">
                                    
 										<header>
-											
+											<H2>RGF - RELATÓRIO DE GESTÃO FISCAL</H2>
 										</header>
 										
 									</div>
-									<span class="image object">
-									
-									</span>
+				
                                 </section>
-
-							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>RGF</h2>
-									</header>
-									<div class="features">
-										
-									</div>
-								</section>
 
 							<!-- Section -->
 								<section>
@@ -54,15 +42,6 @@
 									
 									</header>
 									<div class="posts">
-										<article>
-											
-										</article>
-										<article>
-											
-										</article>
-										<article>
-											
-										</article>
 										
 									</div>
 								</section>

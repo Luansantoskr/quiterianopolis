@@ -29,40 +29,19 @@
 									<div class="content">
                                    
 										<header>
-											
+											<h2>Veículos</h2>
 										</header>
 										
 									</div>
-									<span class="image object">
-									
-									</span>
+								
                                 </section>
 
 							<!-- Section -->
 								<section>
 									<header class="major">
-										<h2>Veiculos</h2>
-									</header>
-									<div class="features">
-										
-									</div>
-								</section>
-
-							<!-- Section -->
-								<section>
-									<header class="major">
-									
+										<h2>Lista de veículos</h2>
 									</header>
 									<div class="posts">
-										<article>
-											
-										</article>
-										<article>
-											
-										</article>
-										<article>
-											
-										</article>
 										
 									</div>
 								</section>

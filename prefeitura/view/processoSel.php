@@ -29,7 +29,7 @@
 									<div class="content">
                                    
 										<header>
-											
+											<h2>Processos seletivos</h2>
 										</header>
 										
 									</div>
@@ -41,7 +41,31 @@
 							<!-- Section -->
 								<section>
 									<header class="major">
-										<h2>Processos seletivos</h2>
+										<h2>EDITAL DE CONVOCAÇÃO</h2>
+									</header>
+									<div class="features">
+										
+									</div>
+								</section>
+								<section>
+									<header class="major">
+										<h2>EDITAL</h2>
+									</header>
+									<div class="features">
+										
+									</div>
+								</section>
+								<section>
+									<header class="major">
+										<h2>EDITAL</h2>
+									</header>
+									<div class="features">
+										
+									</div>
+								</section>
+								<section>
+									<header class="major">
+										<h2>EDITAL</h2>
 									</header>
 									<div class="features">
 										
@@ -54,15 +78,6 @@
 									
 									</header>
 									<div class="posts">
-										<article>
-											
-										</article>
-										<article>
-											
-										</article>
-										<article>
-											
-										</article>
 										
 									</div>
 								</section>

@@ -1,16 +1,11 @@
-<?php 
+<?PHP
+//Arquivo de conexão com o banco
+$host = "localhost";
+$user = "root";
+$pass = "";
+$db = "prefeitura";
 
-class conectar{
-	private $servidor = "localhost";
-	private $usuario = "root";
-	private $senha = "";
-	private $bd = "prefeitura";
+$link = mysqli_connect($host, $user, $pass, $db);
+$banco = mysqli_connect_errno();
 
-	public function conexao(){
-		$conexao = mysqli_connect($this->servidor, $this->usuario, $this->senha, $this->bd);
-
-		return $conexao;
-	}
-}
-
- ?>
+?>

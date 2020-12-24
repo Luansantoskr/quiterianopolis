@@ -29,7 +29,7 @@
 									<div class="content">
                                    
 										<header>
-											
+											<h2>Portal do servidor</h2>
 										</header>
 										
 									</div>
@@ -38,15 +38,6 @@
 									</span>
                                 </section>
 
-							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>Portal do servidor</h2>
-									</header>
-									<div class="features">
-										
-									</div>
-								</section>
 
 							<!-- Section -->
 								<section>
@@ -54,15 +45,7 @@
 									
 									</header>
 									<div class="posts">
-										<article>
-											
-										</article>
-										<article>
-											
-										</article>
-										<article>
-											
-										</article>
+										
 										
 									</div>
 								</section>

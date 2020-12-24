@@ -23,20 +23,7 @@
 										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 									</ul>
 								</header>
-
-							<!-- Banner -->
-								<section id="banner">
-									<div class="content">
-                                   
-										<header>
-											
-										</header>
-										
-									</div>
-									<span class="image object">
-									
-									</span>
-                                </section>
+							
 
 							<!-- Section -->
 								<section>
@@ -44,7 +31,7 @@
 										<h2>Diario oficial</h2>
 									</header>
 									<div class="features">
-										
+										<a href="http://www.diariomunicipal.com.br/aprece/"><button class="button button2">Diário oficial dos municípios do ceará</button></a>
 									</div>
 								</section>
 
@@ -55,14 +42,23 @@
 									</header>
 									<div class="posts">
 										<article>
-											
+											<form action="">
+											<label>Email</label>
+												<input type="text" class="form-control input-sm" name="email" id="email">
+											<label>nome</label>
+													<input type="text" name="nome" id="nome" class="form-control input-sm">
+												<input type="submit" value="Assinar diário">
+											</form>
 										</article>
-										<article>
-											
-										</article>
-										<article>
-											
-										</article>
+										
+									</div>
+								</section>
+
+								<section>
+									<header class="major">
+										<h2>Mais diários</h2>
+									</header>
+									<div class="posts">
 										
 									</div>
 								</section>

@@ -7,6 +7,36 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 
+		<style>
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+  opacity: 1;
+  transition: opacity 0.6s;
+  margin-bottom: 15px;
+}
+
+.alert.success {background-color: #4CAF50;}
+.alert.info {background-color: #2196F3;}
+.alert.warning {background-color: #ff9800;}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+</style>
+
 		<script>
 			function funcao1()
 				{
@@ -170,9 +200,9 @@
 												<li><a href="#" class="button">e-Sic</a></li>
 										</ul>
 										<ul class="actions">
-										
 												<li><a href="logar.php" onclick="funcao1()" class="button">Fazer login</a></li>
 										</ul>
+
 
 								<footer id="footer">
 									<p class="copyright">&copy; Todos os direitos reservados Design: <a href="">Luan Santos</a>.</p>

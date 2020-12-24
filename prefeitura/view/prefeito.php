@@ -41,7 +41,7 @@
 							<!-- Section -->
 								<section>
 									<header class="major">
-										<h2>Prefeito e vice</h2>
+										<h2>Prefeito</h2>
 									</header>
 									<div class="features">
 										
@@ -51,19 +51,10 @@
 							<!-- Section -->
 								<section>
 									<header class="major">
-									
+										<h2>Vice</h2>
 									</header>
 									<div class="posts">
-										<article>
-											
-										</article>
-										<article>
-											
-										</article>
-										<article>
-											
-										</article>
-										
+		
 									</div>
 								</section>
 

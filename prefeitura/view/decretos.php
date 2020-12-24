@@ -33,9 +33,7 @@
 										</header>
 										
 									</div>
-									<span class="image object">
-									
-									</span>
+			
                                 </section>
 
 							<!-- Section -->

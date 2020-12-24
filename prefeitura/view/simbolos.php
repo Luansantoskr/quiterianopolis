@@ -29,7 +29,7 @@
 									<div class="content">
                                    
 										<header>
-											
+											<h2>Simbolos municipais</h2>
 										</header>
 										
 									</div>
@@ -41,28 +41,10 @@
 							<!-- Section -->
 								<section>
 									<header class="major">
-										<h2>Simbolos municipais</h2>
-									</header>
-									<div class="features">
-										
-									</div>
-								</section>
-
-							<!-- Section -->
-								<section>
-									<header class="major">
 									
 									</header>
 									<div class="posts">
-										<article>
-											
-										</article>
-										<article>
-											
-										</article>
-										<article>
-											
-										</article>
+									
 										
 									</div>
 								</section>

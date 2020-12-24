@@ -29,7 +29,7 @@
 									<div class="content">
                                    
 										<header>
-											
+											<h2>LOA - Lei orçamentária anual</h2>
 										</header>
 										
 									</div>
@@ -54,15 +54,6 @@
 									
 									</header>
 									<div class="posts">
-										<article>
-											
-										</article>
-										<article>
-											
-										</article>
-										<article>
-											
-										</article>
 										
 									</div>
 								</section>
