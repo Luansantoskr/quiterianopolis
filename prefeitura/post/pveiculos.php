@@ -32,7 +32,7 @@
 
 							<!-- Banner -->
 							<section>
-									<form action="postar.php" enctype="multipart/form-data">
+									<form action="../classes/post_veiculos.php" method="post">
 										<label>Marca</label>
 											<input type="text" name="marca">
 										<label>Modelo</label>
@@ -46,14 +46,14 @@
 										<label>Finalidade</label>
 											<input type="text" name="finalidade">
 										<label>Data</label>
-											<input type="text" name="data">
+											<input type="text" name="dataVeiculo">
 										<label>Situação</label>
 											<input type="text" name="situacao">
 										<label>Tipo</label>
-											<input type="text" name="data">
+											<input type="text" name="tipo">
 										<label>Mais</label>
 											<input type="text" name="maisVeiculo"><br>
-										<input type="submite" class="button button2" value="Adicionar">
+										<input type="submit" class="button button2" value="Adicionar">
 									</form> 
                                 </section>
 						</div>

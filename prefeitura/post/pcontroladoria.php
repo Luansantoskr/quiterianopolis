@@ -31,79 +31,81 @@
 								</header>
 
 							<!-- Banner -->
-							<h3>Informações</h3>
+							
 							<section>
-									<form action="postar.php" enctype="multipart/form-data">
+								<h3>Informações</h3>
+									<form action="../classes/post_controladoria.php" method="post">
 										<label>CNPJ</label>
-											<input type="text" name="cnpj">
+											<input type="text" name="cnpjControladoria">
 										<label>Telefone</label>
-											<input type="text" id="telefone" name="telefone">
+											<input type="text" name="telefoneControladoria">
 										<label>Email</label>
-											<input type="text" name="email">
+											<input type="text" name="emailControladoria">
 										<label>Horário de funcionamento</label>
-											<input type="text" name="funcionamento">
+											<input type="text" name="funcionamentoControladoria">
 										<label>Endereço</label>
-											<input type="text" name="endereco">
+											<input type="text" name="enderecoControladoria">
 										<label>Nome</label>
-											<input type="text" name="nomeG">
+											<input type="text" name="nomeControladoria">
 										<label>Cargo</label>
-											<input type="text" name="cargoG">
+											<input type="text" name="cargoControladoria">
 										<label>período</label>
-											<input type="text" name="periodoG">
+											<input type="text" name="periodoControladoria">
 										<label>Amparo legal</label>
-											<input type="text" name="amparoG">
+											<input type="text" name="amparoControladoria">
 										<label>Matrícula</label>
-											<input type="text" name="matriculaG"><br>
-										<input type="submite" class="button button2" value="Adicionar">
+											<input type="text" name="matriculaControladoria"><br>
+										<input type="submit" class="button button2" value="Adicionar">
 									</form> 
                                 </section>
+								<section>
 								<h3>Ordenadores</h3>
-								<section>
-									<form action="postar.php" enctype="multipart/form-data">
+									<form action="../classes/post_ordenador_controladoria.php" method="post">
 										<label>Nome</label>
-											<input type="text" name="nomeGG">
+											<input type="text" name="nomeOrdenadorControladoria">
 										<label>Data início</label>
-											<input type="text" id="dataI" name="dataI">
-										<label>Data</label>
-											<input type="text" name="dataG"><br>									
-										<input type="submite" class="button button2" value="Adicionar">
+											<input class="button button2" type="date" name="dataInicioOrdenadorControladoria">
+										<label>Data Fim</label>
+											<input class="button button2" type="date" name="dataFimOrdenadorControladoria"><br><br>									
+										<input type="submit" class="button button2" value="Adicionar">
 									</form> 
                                 </section>
-								<h3>Portarias</h3>
 								<section>
-									<form action="postar.php" enctype="multipart/form-data">
+								<h3>Portarias</h3>
+									<form action="../classes/post_portaria_controladoria.php" method="post">
 										<label>Título da portaria</label>
 											<input type="text" name="tituloPortariaControladoria">
 										<label>Conteudo da portaria</label>
 											<input type="text" name="conteudoPortariaControladoria">
 										<label>Data</label>
-											<input type="text" name="dataPortariaControladoria"><br>								
-										<input type="submite" class="button button2" value="Adicionar">
+											<input class="button button2" type="date" name="dataPortariaControladoria"><br><br>						
+										<input type="submit" class="button button2" value="Adicionar">
 									</form> 
                                 </section>
-								<h3>Contratos</h3>
+								
 								<section>
-									<form action="postar.php" enctype="multipart/form-data">
+								<h3>Contratos</h3>
+									<form action="postar.php" method="post">
 										<label>Título</label>
 											<input type="text" name="tituloContratosControladoria">
 										<label>Conteudo</label>
 											<input type="text" name="conteudoContratosControladoria">
 										<label>Data</label>
-											<input type="text" name="dataContratoControladoria">
+											<input class="button button2" type="date" name="dataContratoControladoria">
 										<label>Credor</label>
 											<input type="text" name="credorContratoControladoria"><br>								
-										<input type="submite" class="button button2" value="Adicionar">
+										<input type="submit" class="button button2" value="Adicionar">
 									</form> 
                                 </section>
 								<h3>Licitações</h3>
 								<section>
-									<form action="postar.php" enctype="multipart/form-data">
+									<form action="post_licitacao_controladoria.php" enctype="multipart/form-data">
 										<label>Título da licitação</label>
 											<input type="text" name="tituloLicitacaoControladoria">
 										<label>Conteudo da licitação</label>
 											<input type="text" name="conteudoLicitacaoControladoria">
 										<label>Data</label>
-											<input type="text" name="dataLicitacaoControladoria"><br>								
+											<input type="date" name="dataLicitacaoControladoria"><br>								
 										<input type="submite" class="button button2" value="Adicionar">
 									</form> 
                                 </section>

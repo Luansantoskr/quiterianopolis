@@ -32,7 +32,7 @@
 
 							<!-- Banner -->
 							<section>
-									<form action="postar.php" enctype="multipart/form-data">
+									<form action="../classes/post_simbolo.php" enctype="multipart/form-data">
 										<label>Nome do simbolo</label>
 											<input type="text" name="nomeSimbolo">
 										<label>Conteúdo do simbolo</label>
