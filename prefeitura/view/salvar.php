@@ -1,5 +1,12 @@
 
 
+<?php 
+	session_start();
+	if(isset($_SESSION['usuario'])){
+
+
+ ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -26,103 +33,26 @@
 								</header>
 
 							<!-- Banner -->
-							
-							<section>
-								<h3>Informações</h3>
-									<form action="../classes/post_controladoria.php" method="post">
-										<label>CNPJ</label>
-											<input type="text" name="cnpjControladoria">
-										<label>Telefone</label>
-											<input type="text" name="telefoneControladoria">
-										<label>Email</label>
-											<input type="text" name="emailControladoria">
-										<label>Horário de funcionamento</label>
-											<input type="text" name="funcionamentoControladoria">
-										<label>Endereço</label>
-											<input type="text" name="enderecoControladoria">
-										<label>Nome</label>
-											<input type="text" name="nomeControladoria">
-										<label>Cargo</label>
-											<input type="text" name="cargoControladoria">
-										<label>período</label>
-											<input type="text" name="periodoControladoria">
-										<label>Amparo legal</label>
-											<input type="text" name="amparoControladoria">
-										<label>Matrícula</label>
-											<input type="text" name="matriculaControladoria"><br>
-										<input type="submit" class="button button2" value="Adicionar">
-									</form> 
+								<section id="banner">
+									
                                 </section>
+
+							<!-- Section -->
 								<section>
-								<h3>Ordenadores</h3>
-									<form action="../classes/post_ordenador_controladoria.php" method="post">
-										<label>Nome</label>
-											<input type="text" name="nomeOrdenadorControladoria">
-										<label>Data início</label>
-											<input class="button button2" type="date" name="dataInicioOrdenadorControladoria">
-										<label>Data Fim</label>
-											<input class="button button2" type="date" name="dataFimOrdenadorControladoria"><br><br>									
-										<input type="submit" class="button button2" value="Adicionar">
-									</form> 
-                                </section>
+									
+								</section>
+
+							<!-- Section -->
 								<section>
-								<h3>Portarias</h3>
-									<form action="../classes/post_portaria_controladoria.php" method="post">
-										<label>Título da portaria</label>
-											<input type="text" name="tituloPortariaControladoria">
-										<label>Conteudo da portaria</label>
-											<input type="text" name="conteudoPortariaControladoria">
-										<label>Data</label>
-											<input class="button button2" type="date" name="dataPortariaControladoria"><br><br>						
-										<input type="submit" class="button button2" value="Adicionar">
-									</form> 
-                                </section>
-								
-								<section>
-								<h3>Contratos</h3>
-									<form action="../classes/post_contratos_controladoria.php" method="post">
-										<label>Título</label>
-											<input type="text" name="tituloContratosControladoria">
-										<label>Conteudo</label>
-											<input type="text" name="conteudoContratosControladoria">
-										<label>Data</label>
-											<input class="button button2" type="date" name="dataContratosControladoria">
-										<label>Credor</label>
-											<input type="text" name="credorContratosControladoria"><br>								
-										<input type="submit" class="button button2" value="Adicionar">
-									</form> 
-                                </section>
-								<h3>Licitações</h3>
-								<section>
-									<form action="../classes/post_licitacao_controladoria.php" method="post">
-										<label>Título da licitação</label>
-											<input type="text" name="tituloLicitacaoControladoria">
-										<label>Conteudo da licitação</label>
-											<input type="text" name="conteudoLicitacaoControladoria">
-										<label>Data</label>
-											<input type="date" name="dataLicitacaoControladoria" class="button button2"><br>								
-										<input type="submit" class="button button2" value="Adicionar">
-									</form> 
-                                </section>
-								<h3>IN</h3>
-								<section>
-									<form action="../classes/post_in_controladoria.php" method="post">
-										<label>Título IN</label>
-											<input type="text" name="tituloInControladoria">
-										<label>Conteudo IN</label>
-											<input type="text" name="conteudoInControladoria">
-										<label>Data</label>
-											<input type="date" name="dataInControladoria" class="button button2"><br>								
-										<input type="submit" class="button button2" value="Adicionar">
-									</form> 
-                                </section>
+									
+								</section>
 						</div>
 					</div>
 
 					<div id="sidebar">
 						<div class="inner">
 
-						<nav id="menu">
+								<nav id="menu">
 									<header class="major">
 										<h2>Menu</h2>
 									</header>
@@ -150,7 +80,7 @@
 												<li><a href="../post/pcontroladoria.php">Atualizar Controladoria geral do município</a></li>
 												<li><a href="../post/pfundo.php">Atualizar Fundo municipal de saúde</a></li>
 												<li><a href="../post/pgabinete.php">Atualizar Gabinete do prefeito</a></li>
-												<li><a href="../post/pplanGestao.php">Atualizar Planejamento e gestão de finanças</a></li>
+												<li><a href="../post/pplanejamento.php">Atualizar Planejamento e gestão de finanças</a></li>
 												<li><a href="../post/pprocuradoria.php">Atualizar Procuradoria geral do município</a></li>
 												<li><a href="../post/passisSocial.php">Atualizar Secretaria de assistência social</a></li>
 												<li><a href="../post/pcultura.php">Atualizar Secretaria de cultura</a></li>
@@ -208,5 +138,27 @@
 			<script src="../assets/js/main.js"></script>
 	</body>
 </html>
+
+
+<?php 
+} else{
+	header("location:../index.php");
+}
+
+ ?>
+
+<script type="text/javascript">
+		$(document).ready(function(){
+
+				
+				$('#vendasFeitas').load('vendas/vendasRelatorios.php');
+				
+				$('#vendasFeitas').show();
+				
+		});
+
+		
+
+	</script>
 
 

@@ -13,8 +13,8 @@ if ($tituloLicitacaoControladoria != "" && $conteudoLicitacaoControladoria != ""
 }
 
 if($registro == true){
-    mysqli_query($link, "INSERT INTO licitacoes_controladoria(titulo_portaria_controladoria, conteudo_portaria_controladoria, data_portaria_controladoria)VALUES
-    ('$tituloPortariaControladoria', '$conteudoPortariaControladoria', '$dataPortariaControladoria')");
+    mysqli_query($link, "INSERT INTO licitacoes_controladoria(titulo_licitacao_controladoria, conteudo_licitacao_controladoria, data_licitacao_controladoria)VALUES
+    ('$tituloLicitacaoControladoria', '$conteudoLicitacaoControladoria', '$dataLicitacaoControladoria')");
         echo "<script> alert('adicionado com sucesso!'); window.location.href='../view/inicio.php' </script>";
     }else{
         echo "<script> window.history.go(-1) </script>";

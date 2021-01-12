@@ -200,7 +200,7 @@
 												<li><a href="#" class="button">e-Sic</a></li>
 										</ul>
 										<ul class="actions">
-												<li><a href="logar.php" onclick="funcao1()" class="button">Fazer login</a></li>
+												<li><a href="view/inicio.php" onclick="funcao1()" class="button">Fazer login</a></li>
 										</ul>
 
 

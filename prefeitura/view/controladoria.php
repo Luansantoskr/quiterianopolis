@@ -1,3 +1,25 @@
+
+<?php 
+include "../classes/conexao.php";
+$mysqli = new mysqli("sql213.epizy.com", "epiz_27666946", "Op6E1P4Jn8oJR6S", "epiz_27666946_prefeitura");
+
+
+$info_control = "SELECT * from info_controladoria";
+$contratos_control = "SELECT * from contratos_controladoria";
+$portaria_control = "SELECT * from portarias_controladoria";
+$ordenador_control = "SELECT * from ordenadores_controladoria";
+$licitacoes_control = "SELECT * from licitacoes_controladoria";
+$in_control = "SELECT * from in_controladoria";
+
+$inf = $mysqli->query($info_control) or die ($mysqli->error);
+$inf2 = $mysqli->query($info_control) or die ($mysqli->error);
+$cont = $mysqli->query($contratos_control) or die ($mysqli->error);
+$port = $mysqli->query($portaria_control) or die ($mysqli->error);
+$orde = $mysqli->query($ordenador_control) or die ($mysqli->error);
+$licit = $mysqli->query($licitacoes_control) or die ($mysqli->error);
+?>
+
+
 <!DOCTYPE HTML>
 
 <html>
@@ -28,20 +50,50 @@
 							<section id="banner">
 									<div class="content">
                                    
-										<header>
-											<h2>Informações da secretaria</h2>
+									<header>
+											<h2>Informações da secretaria e secretário</h2>
 										</header>
-										
-									</div>
-									
-                                </section>
-								<section id="banner">
-									<div class="content">
-                                   
-										<header>
-											<h2>Informações do secretário(a)</h2>
-										</header>
-										
+											<table>
+												<tr>
+													<td> <strong>CNPJ:</strong> </td>
+													<td> <strong>Telefone:</strong> </td>
+													<td> <strong>Email: </strong></td>
+													<td> <strong>horário: </strong></td>
+													<td> <strong>endereço: </strong></td> <br>
+																							
+												</tr>
+
+												<?php 
+													while($dado = $inf->fetch_array()){ ?>
+													<tr>
+														<td><?php echo $dado["cnpj_controladoria"];?></td>
+														<td><?php echo $dado["telefone_controladoria"];?></td>
+														<td><?php echo $dado["email_controladoria"];?></td>
+														<td><?php echo $dado["horario_controladoria"];?></td>
+														<td><?php echo $dado["endereco_controladoria"];?></td>
+														
+													</tr>
+													<?php	} ?>
+												<tr>
+													<td> <strong>Nome:</strong> </td>
+													<td> <strong>Cargo:</strong> </td>
+													<td> <strong>Período: </strong></td>
+													<td> <strong>Amparo legal: </strong></td>
+													<td> <strong>matricula: </strong></td>	
+												</tr>
+
+												<?php 
+													while($dado = $inf2->fetch_array()){ ?>
+													<tr>
+														<td><?php echo $dado["nome_controladoria"];?></td>
+														<td><?php echo $dado["cargo_controladoria"];?></td>
+														<td><?php echo $dado["periodo_controladoria"];?></td>
+														<td><?php echo $dado["amparo_controladoria"];?></td>
+														<td><?php echo $dado["matricula"];?></td>
+													</tr>
+													
+												<?php	} ?>
+											</table>
 									</div>
 									
                                 </section>
@@ -62,7 +114,81 @@
 										<h2>Mais informações da secretaria</h2>
 									</header>
 									<div class="features">
-										
+											<h3>Contratos: </h3>
+										<table>
+										<tr>
+													<td> <strong>Titulo contrato:</strong> </td>
+													<td> <strong>Conteudo contrato:</strong> </td>
+													<td> <strong>Data contrato: </strong></td>
+													<td> <strong>Credor: </strong></td>
+																							
+												</tr>
+
+												<?php 
+													while($dado = $cont->fetch_array()){ ?>
+													<tr>
+														<td><?php echo $dado["titulo_contrato_controladoria"];?></td>
+														<td><?php echo $dado["conteudo_contrato_controladoria"];?></td>
+														<td><?php echo date("d/m/Y", strtotime($dado["data_contrato_controladoria"]));?></td>
+														<td><?php echo $dado["credor_contrato_controladoria"];?></td>														
+													</tr>
+													<?php	} ?>
+										</table>
+
+										<h3>Portarias: </h3>
+										<table>
+										<tr>
+													<td> <strong>Titulo portaria:</strong> </td>
+													<td> <strong>Conteudo portaria:</strong> </td>
+													<td> <strong>Data portaria: </strong></td>
+																							
+												</tr>
+
+												<?php 
+													while($dado = $port->fetch_array()){ ?>
+													<tr>
+														<td><?php echo $dado["titulo_portaria_controladoria"];?></td>
+														<td><?php echo $dado["conteudo_portaria_controladoria"];?></td>
+														<td><?php echo date("d/m/Y", strtotime($dado["data_portaria_controladoria"]));?></td>													
+													</tr>
+													<?php	} ?>
+										</table>
+										<h3>Ordenadores: </h3>
+										<table>
+										<tr>
+													<td> <strong>Nome ordenador:</strong> </td>
+													<td> <strong>Data início:</strong> </td>
+													<td> <strong>Data fim: </strong></td>
+																							
+												</tr>
+
+												<?php 
+													while($dado = $orde->fetch_array()){ ?>
+													<tr>
+														<td><?php echo $dado["nome_ordenador_controladoria"];?></td>
+														<td><?php echo date("d/m/Y", strtotime($dado["dataInicio_ordenador_controladoria"]));?></td>	
+														<td><?php echo date("d/m/Y", strtotime($dado["dataFim_ordenador_controladoria"]));?></td>													
+													</tr>
+													<?php	} ?>
+										</table>
+										<h3>Licitações: </h3>
+										<table>
+										<tr>
+													<td> <strong>Titulo Licitação:</strong> </td>
+													<td> <strong>Conteudo licitação:</strong> </td>
+													<td> <strong>Data licitacão: </strong></td>
+																							
+												</tr>
+
+												<?php 
+													while($dado = $licit->fetch_array()){ ?>
+													<tr>
+														<td><?php echo $dado["titulo_licitacao_controladoria"];?></td>
+														<td><?php echo $dado["conteudo_licitacao_controladoria"];?></td>	
+														<td><?php echo date("d/m/Y", strtotime($dado["data_licitacao_controladoria"]));?></td>													
+													</tr>
+													<?php	} ?>
+										</table>
 									</div>
 								</section>
 

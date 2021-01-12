@@ -13,7 +13,7 @@ $amparoControladoria = $_POST['amparoControladoria'];
 $matriculaControladoria = $_POST['matriculaControladoria'];
 
 $registro = false;
-if ($cnpjControladoria != "" && $telefoneContraoladoria != "" && $emailControladoria != "" && $horarioControladoria != "" 
+if ($cnpjControladoria != "" && $telefoneControladoria != "" && $emailControladoria != "" && $horarioControladoria != "" 
 && $enderecoControladoria != "" && $nomeControladoria != "" && $cargoControladoria != "" && $periodoControladoria != "" 
 && $amparoControladoria != "" && $matriculaControladoria != "") {
     $registro = true;
